@@ -110,7 +110,7 @@ footer{background:var(--navy-dark);color:rgba(255,255,255,.65);padding:30px 24px
           </div>
         </div>
 
-        <div class="notice" role="note">Your details will be submitted securely to our registration spreadsheet when the form is connected to Google Sheets. Please do not enter sensitive personal information.</div>
+        <div class="notice" role="note">Your details will be submitted securely to our registration portal. Please do not enter sensitive personal information.</div>
         <label class="consent"><input type="checkbox" required> <span>I confirm that the information provided is accurate and consent to SSK Biz Consultants contacting me regarding relevant opportunities or hiring requirements.</span></label>
         <button class="submit" type="submit">Submit Registration</button>
       </form>
@@ -149,7 +149,7 @@ footer{background:var(--navy-dark);color:rgba(255,255,255,.65);padding:30px 24px
           body: new URLSearchParams(data)
         });
         this.reset();
-        alert("Thank you! Your registration has been submitted. If you do not receive a confirmation from our team, please contact us.");
+        alert("Your registration has been submitted successfully. Our team will review your details and contact you if any additional information is required.");
       } catch (error) {
         alert("We could not submit your registration. Please check your internet connection and try again.");
       } finally {
